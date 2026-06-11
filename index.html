@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zafran - The Indian Kitchen | Premium Indian Restaurant & Menu</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Experience authentic Indian cuisine at Zafran - The Indian Kitchen. Order Biryani, Butter Chicken, Naan, and desserts online or book a table. Professional service and warm saffron-inspired ambiance.">
+    <meta name="keywords" content="Zafran, Indian Restaurant, Indian Menu, Butter Chicken, Biryani, Naan, Gulab Jamun, Indian Food, Order Food, Table Reservation">
+    <meta name="author" content="Zafran Restaurant">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- FontAwesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- --- HEADER / NAVIGATION BAR --- -->
+    <header class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="navbar-brand">
+                    <h1><i class="fas fa-utensils"></i> Zafran<span>.</span></h1>
+                </a>
+                
+                <ul class="navbar-nav">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#booking" class="nav-link">Booking</a></li>
+                    <li><a href="#team" class="nav-link">Our Chefs</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                </ul>
+
+                <div class="navbar-actions">
+                    <button class="cart-icon-btn" aria-label="Shopping Cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-badge" style="display: none;">0</span>
+                    </button>
+                    <a href="#booking" class="btn btn-primary" id="navBookBtn">Book A Table</a>
+                    <button class="hamburger-btn" aria-label="Toggle Navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- --- HERO SECTION --- -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1 class="animate-left">Enjoy Our<br>Delicious Indian Meal</h1>
+                    <p class="animate-left">Indulge in a rich culinary journey through India. From charred clay-oven tandoori delights to rich buttery curries, aromatic long-grain biryanis, and traditional desserts—crafted by master chefs using custom-ground spices.</p>
+                    <div class="hero-buttons animate-left">
+                        <a href="#menu" class="btn btn-primary" id="orderOnlineHeroBtn">Order Online</a>
+                        <a href="#booking" class="btn btn-outline-white">Reserve Table</a>
+                    </div>
+                </div>
+                <div class="hero-image animate-right">
+                    <!-- Rotating Biryani Plate -->
+                    <img src="assets/images/rotating_plate.png" alt="Delicious Indian Biryani Plate" class="rotating-plate">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FEATURES SECTION --- -->
+    <section class="features section-padding bg-light">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Master Chefs</h3>
+                    <p>Our kitchen is led by award-winning culinary experts specialized in traditional Indian recipes and tandoor styles.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-pepper-hot"></i></div>
+                    <h3>Authentic Spices</h3>
+                    <p>We source whole, premium spices directly from India, roasting and blending them daily for unparalleled flavor.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>Online Ordering</h3>
+                    <p>Order your favorite meals easily online. Get hot and fresh delicacies packaged safely and delivered straight to your door.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-truck"></i></div>
+                    <h3>24/7 Delivery</h3>
+                    <p>Satiate your midnight biryani or butter chicken cravings with our round-the-clock hot and secure express delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- ABOUT US SECTION --- -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Staggered Image Gallery -->
+                <div class="about-images">
+                    <div class="about-img-item large-top-left">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=500&fit=crop&q=80" alt="Zafran Elegant Fine Dining Table Setup">
+                    </div>
+                    <div class="about-img-item small-top-right">
+                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=500&h=500&fit=crop&q=80" alt="Zafran Master Chef Garnish">
+                    </div>
+                    <div class="about-img-item small-bottom-left">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=500&h=500&fit=crop&q=80" alt="Zafran Tandoor Clay Oven Naan baking">
+                    </div>
+                    <div class="about-img-item large-bottom-right">
+                        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=500&h=500&fit=crop&q=80" alt="Indian Traditional Spices">
+                    </div>
+                </div>
+                <!-- About Description -->
+                <div class="about-text">
+                    <h5 class="section-title font-secondary text-primary">About Us</h5>
+                    <h2>Welcome to <i class="fa fa-utensils text-primary me-2"></i>Zafran</h2>
+                    <p>Zafran is a celebration of heritage, flavor, and hospitality. Named after Saffron—the most precious spice in Indian cooking—our restaurant serves as an ambassador of authentic culinary arts. Every dish is cooked with love, precision, and the finest ingredients.</p>
+                    <p>We harmonize traditional cooking methods like clay-pot slow cooking and intense clay-oven (tandoor) roasting with a modern presentation. Whether you dine in our warm, elegant dining hall or order to the comfort of your home, we promise an exceptional experience.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h3>15</h3>
+                            <div>
+                                <p>Years Of</p>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>50+</h3>
+                            <div>
+                                <p>Popular</p>
+                                <p>Master Chefs</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#menu" class="btn btn-primary">Discover Our Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FOOD MENU SECTION --- -->
+    <section id="menu" class="menu section-padding bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="section-title font-secondary text-primary">Food Menu</h5>
+                <h2 style="font-size: 32px; margin-bottom: 40px;">Our Signature Indian Delicacies</h2>
+            </div>
+            
+            <!-- Category Tabs Navigation -->
+            <ul class="menu-tabs">
+                <li>
+                    <button class="menu-tab-btn active" data-category="all">
+                        <i class="fas fa-border-all"></i> All Items
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-tab-btn" data-category="appetizers">
+                        <i class="fas fa-star"></i> Appetizers
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-tab-btn" data-category="mains">
+                        <i class="fas fa-utensils"></i> Mains
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-tab-btn" data-category="breads">
+                        <i class="fas fa-bread-slice"></i> Breads
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-tab-btn" data-category="desserts">
+                        <i class="fas fa-birthday-cake"></i> Desserts
+                    </button>
+                </li>
+                <li>
+                    <button class="menu-tab-btn" data-category="beverages">
+                        <i class="fas fa-glass-martini-alt"></i> Beverages
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid">
+                
+                <!-- --- APPETIZERS --- -->
+                <div class="menu-card" data-category="appetizers">
+                    <div class="menu-card-img">
+                        <img src="assets/images/appetizer.png" alt="Samosa Chaat">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Samosa Chaat</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹120</span>
+                        </div>
+                        <p class="menu-card-desc">Crispy spiced pastry samosas crushed and topped with warm chickpeas, tangy yogurt, mint & tamarind chutneys.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="app1" data-name="Samosa Chaat" data-price="120" data-img="assets/images/appetizer.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="appetizers">
+                    <div class="menu-card-img">
+                        <img src="assets/images/appetizer.png" alt="Paneer Tikka">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Paneer Tikka</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹240</span>
+                        </div>
+                        <p class="menu-card-desc">Chargrilled fresh cottage cheese chunks marinated in yogurt, turmeric, Kashmiri red chillies, and mustard oil.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="app2" data-name="Paneer Tikka" data-price="240" data-img="assets/images/appetizer.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="appetizers">
+                    <div class="menu-card-img">
+                        <img src="assets/images/appetizer.png" alt="Tandoori Chicken">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Tandoori Chicken</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹280</span>
+                        </div>
+                        <p class="menu-card-desc">Tender chicken thighs and drumsticks marinated in a fiery spiced yogurt mix and roasted over white hot charcoal.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="app3" data-name="Tandoori Chicken" data-price="280" data-img="assets/images/appetizer.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="appetizers">
+                    <div class="menu-card-img">
+                        <img src="assets/images/appetizer.png" alt="Onion Bhaji">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Onion Bhaji</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹110</span>
+                        </div>
+                        <p class="menu-card-desc">Crispy golden sliced onion clusters flavored with fennel seeds, turmeric, and cumin, fried in gram flour batter.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="app4" data-name="Onion Bhaji" data-price="110" data-img="assets/images/appetizer.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --- MAINS --- -->
+                <div class="menu-card" data-category="mains">
+                    <div class="menu-card-img">
+                        <img src="assets/images/main.png" alt="Butter Chicken">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Butter Chicken</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹340</span>
+                        </div>
+                        <p class="menu-card-desc">Smoked tandoori chicken shreds simmered in a velvety sauce of tomatoes, fresh cream, butter, and dried fenugreek leaves.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="main1" data-name="Butter Chicken" data-price="340" data-img="assets/images/main.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="mains">
+                    <div class="menu-card-img">
+                        <img src="assets/images/main.png" alt="Paneer Butter Masala">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Paneer Butter Masala</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹290</span>
+                        </div>
+                        <p class="menu-card-desc">Soft cottage cheese cubes in a thick, medium-spicy tomato gravy enriched with cashew nut paste and organic butter.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="main2" data-name="Paneer Butter Masala" data-price="290" data-img="assets/images/main.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="mains">
+                    <div class="menu-card-img">
+                        <img src="assets/images/main.png" alt="Rogan Josh">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Kashmiri Rogan Josh</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹380</span>
+                        </div>
+                        <p class="menu-card-desc">Aromatic slow-cooked tender lamb curry cooked with spices, ginger, garlic, and bright red Kashmiri chili pods.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="main3" data-name="Kashmiri Rogan Josh" data-price="380" data-img="assets/images/main.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="mains">
+                    <div class="menu-card-img">
+                        <img src="assets/images/main.png" alt="Dal Makhani">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Dal Makhani</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹220</span>
+                        </div>
+                        <p class="menu-card-desc">Slow-cooked black lentils and red kidney beans simmered on woodfire overnight, finished with butter and fresh cream.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="main4" data-name="Dal Makhani" data-price="220" data-img="assets/images/main.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --- BREADS --- -->
+                <div class="menu-card" data-category="breads">
+                    <div class="menu-card-img">
+                        <img src="assets/images/bread.png" alt="Butter Naan">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Butter Naan</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹60</span>
+                        </div>
+                        <p class="menu-card-desc">Classic soft, pillowy leavened white flour flatbread baked fresh inside the tandoor and glazed with pure butter.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="bread1" data-name="Butter Naan" data-price="60" data-img="assets/images/bread.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="breads">
+                    <div class="menu-card-img">
+                        <img src="assets/images/bread.png" alt="Garlic Naan">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Garlic Naan</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹75</span>
+                        </div>
+                        <p class="menu-card-desc">Fresh tandoor flatbread brushed with garlic butter and topped with roasted minced garlic shards and fresh parsley.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="bread2" data-name="Garlic Naan" data-price="75" data-img="assets/images/bread.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --- DESSERTS --- -->
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-card-img">
+                        <img src="assets/images/dessert.png" alt="Gulab Jamun">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Gulab Jamun</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹110</span>
+                        </div>
+                        <p class="menu-card-desc">Three hot golden-brown caramelized milk dumplings dipped in a sweet rose-water and cardamom sugar syrup glaze.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="des1" data-name="Gulab Jamun" data-price="110" data-img="assets/images/dessert.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-card-img">
+                        <img src="assets/images/dessert.png" alt="Rasmalai">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Kesar Rasmalai</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹130</span>
+                        </div>
+                        <p class="menu-card-desc">Chilled, delicate flattened cheese discs soaked in sweetened, thickened milk flavored with cardamom, saffron (kesar), and nuts.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="des2" data-name="Kesar Rasmalai" data-price="130" data-img="assets/images/dessert.png">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --- BEVERAGES --- -->
+                <div class="menu-card" data-category="beverages">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=400&fit=crop&q=80" alt="Mango Lassi">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Mango Lassi</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹90</span>
+                        </div>
+                        <p class="menu-card-desc">Creamy, rich traditional yogurt beverage blended with sweet mango pulp, milk, sugar, and organic saffron strands.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="bev1" data-name="Mango Lassi" data-price="90" data-img="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=400&fit=crop&q=80">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="beverages">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400&h=400&fit=crop&q=80" alt="Masala Chai">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <span class="menu-card-title">Masala Chai</span>
+                            <span class="menu-card-line"></span>
+                            <span class="menu-card-price">₹50</span>
+                        </div>
+                        <p class="menu-card-desc">Strong Assam black tea slow-brewed with buffalo milk, brown sugar, ginger root, green cardamom, cloves, and cinnamon.</p>
+                        <div class="menu-card-footer">
+                            <button class="add-to-cart-btn" data-id="bev2" data-name="Masala Chai" data-price="50" data-img="https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=400&h=400&fit=crop&q=80">
+                                <i class="fas fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- BOOKING / RESERVATION SECTION --- -->
+    <section id="booking" class="booking-section">
+        <!-- Visual Video Callout -->
+        <div class="booking-image">
+            <button class="play-video-btn" aria-label="Play Cooking Video">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+        <!-- Booking Form -->
+        <div class="booking-form-wrapper">
+            <h5 class="section-title font-secondary text-primary">Reservation</h5>
+            <h2>Book A Table Online</h2>
+            
+            <form id="bookingForm" class="booking-form">
+                <div class="form-group">
+                    <input type="text" id="bookName" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="bookEmail" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="datetime-local" id="bookDateTime" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <select id="bookGuests" class="form-control" required>
+                        <option value="" disabled selected>No. Of Guests</option>
+                        <option value="1 Guest">1 Guest</option>
+                        <option value="2 Guests">2 Guests</option>
+                        <option value="3 Guests">3 Guests</option>
+                        <option value="4 Guests">4 Guests</option>
+                        <option value="5+ Guests">5+ Guests</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <textarea id="bookRequest" class="form-control" placeholder="Special Requests (e.g., Anniversary, Wheelchair Access, Spice Preference)"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- --- TEAM SECTION --- -->
+    <section id="team" class="team section-padding">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="section-title font-secondary text-primary">Team Members</h5>
+                <h2 style="font-size: 32px; margin-bottom: 40px;">Our Master Chefs</h2>
+            </div>
+            
+            <div class="team-grid">
+                <!-- Chef Card 1 -->
+                <div class="team-card">
+                    <div class="team-card-img">
+                        <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=400&fit=crop&q=80" alt="Chef Sanjay Kapoor">
+                        <div class="team-social">
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h4>Sanjay Kapoor</h4>
+                        <p class="text-primary">Executive Chef</p>
+                    </div>
+                </div>
+
+                <!-- Chef Card 2 -->
+                <div class="team-card">
+                    <div class="team-card-img">
+                        <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=300&h=400&fit=crop&q=80" alt="Chef Priya Sharma">
+                        <div class="team-social">
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h4>Priya Sharma</h4>
+                        <p class="text-primary">Curry Specialist</p>
+                    </div>
+                </div>
+
+                <!-- Chef Card 3 -->
+                <div class="team-card">
+                    <div class="team-card-img">
+                        <img src="https://images.unsplash.com/photo-1595273670150-db0d3bf3cab2?w=300&h=400&fit=crop&q=80" alt="Chef Rajesh Kumar">
+                        <div class="team-social">
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h4>Rajesh Kumar</h4>
+                        <p class="text-primary">Tandoor Expert</p>
+                    </div>
+                </div>
+
+                <!-- Chef Card 4 -->
+                <div class="team-card">
+                    <div class="team-card-img">
+                        <img src="https://images.unsplash.com/photo-1607990283143-e81e7a2c93ab?w=300&h=400&fit=crop&q=80" alt="Chef Amit Patel">
+                        <div class="team-social">
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h4>Amit Patel</h4>
+                        <p class="text-primary">Dessert Chef</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- TESTIMONIALS SECTION --- -->
+    <section id="testimonials" class="testimonials section-padding bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="section-title font-secondary text-primary">Testimonial</h5>
+                <h2 style="font-size: 32px; margin-bottom: 40px;">Our Clients Say!!!</h2>
+            </div>
+
+            <!-- Custom Slider -->
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card active">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">The Butter Chicken at Zafran is easily the best I've ever had! Truly velvety sauce, perfectly cooked chicken, and the garlic naan is so fresh. Highly recommend ordering online, delivery is incredibly fast!</p>
+                    <div class="client-profile">
+                        <div class="client-img">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80" alt="Vikram Malhotra Profile">
+                        </div>
+                        <div class="client-info">
+                            <h4>Vikram Malhotra</h4>
+                            <p>Food Blogger</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">Booking a table online was seamless. We came here for our anniversary dinner, and the service was outstanding. The Paneer Tikka was beautifully smokey, and the Rasmalai made our night perfect. 10/10!</p>
+                    <div class="client-profile">
+                        <div class="client-img">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&q=80" alt="Anjali Sen Gupta Profile">
+                        </div>
+                        <div class="client-info">
+                            <h4>Anjali Sen Gupta</h4>
+                            <p>Loyal Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">Zafran captures the true soul of Indian food. The Rogan Josh has that deep, complex slow-cooked flavor that is hard to find elsewhere. Portions are generous, and prices are very reasonable for this quality.</p>
+                    <div class="client-profile">
+                        <div class="client-img">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&q=80" alt="Rahul Deshmukh Profile">
+                        </div>
+                        <div class="client-info">
+                            <h4>Rahul Deshmukh</h4>
+                            <p>Culinary Critic</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">Ordered Samosa Chaat and Mango Lassi from Zafran for a quick office lunch. Everything was packed extremely securely and arrived piping hot. The chaat was flavorful, spicy, and tangy. Highly recommended!</p>
+                    <div class="client-profile">
+                        <div class="client-img">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&q=80" alt="Sneha Iyer Profile">
+                        </div>
+                        <div class="client-info">
+                            <h4>Sneha Iyer</h4>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Dots -->
+            <div class="slider-controls">
+                <button class="slider-dot active" aria-label="Go to slide 1"></button>
+                <button class="slider-dot" aria-label="Go to slide 2"></button>
+                <button class="slider-dot" aria-label="Go to slide 3"></button>
+                <button class="slider-dot" aria-label="Go to slide 4"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FOOTER --- -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- Brand Column -->
+                <div class="footer-col brand">
+                    <h2><i class="fas fa-utensils text-primary"></i> Zafran<span>.</span></h2>
+                    <p>Bringing you the fine art of authentic Indian cooking, using only custom-blended rich spices and traditional woodfired tandoor roasting methods.</p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links Column -->
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#menu"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        <li><a href="#booking"><i class="fas fa-chevron-right"></i> Reservation</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-col footer-contact-info">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 12, Saffron Road, Connaught Place, New Delhi, India</p>
+                    <p><i class="fas fa-phone-alt"></i> +91 11 2345 6789</p>
+                    <p><i class="fas fa-envelope"></i> contact@zafrankitchen.com</p>
+                </div>
+
+                <!-- Newsletter Column -->
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to receive updates on weekend specials, seasonal menus, and exclusive discount codes.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required aria-label="Email for Newsletter">
+                        <button type="submit" class="btn btn-primary">Signup</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-flex">
+                    <p class="copyright-text">&copy; <a href="#home">Zafran Kitchen</a>, All Rights Reserved. Designed by Antigravity IDE.</p>
+                    <ul class="footer-bottom-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- --- SHOPPING CART DRAWER PANEL --- -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-bag"></i> Your Order</h3>
+            <button class="close-cart-btn" id="closeCartBtn" aria-label="Close Cart">&times;</button>
+        </div>
+        <div class="cart-body">
+            <!-- Populated dynamically via JS -->
+            <div class="empty-cart-message">
+                <i class="fas fa-shopping-basket"></i>
+                <p>Your cart is empty</p>
+                <p style="font-size: 13px; color: #999; margin-top: 5px;">Add some delicious dishes from our menu to get started!</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-subtotal">
+                <span>Subtotal:</span>
+                <span id="cartSubtotalVal">₹0</span>
+            </div>
+            
+            <!-- Checkout Form -->
+            <form id="checkoutForm" class="cart-checkout-form" style="display: none;">
+                <input type="text" id="checkoutName" class="form-control" placeholder="Your Name" required>
+                <input type="tel" id="checkoutPhone" class="form-control" placeholder="Phone Number" required>
+                <input type="text" id="checkoutAddress" class="form-control" placeholder="Delivery Address" required>
+                <button type="submit" class="btn btn-primary checkout-btn">Place Cash On Delivery Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- --- TOAST ALERT BANNER --- -->
+    <div class="alert-banner" id="alertBanner">
+        <i class="fas fa-info-circle"></i>
+        <span id="alertMessage">Success Message Goes Here</span>
+    </div>
+
+    <!-- JavaScript Link -->
+    <script src="js/main.js"></script>
+</body>
+</html>
